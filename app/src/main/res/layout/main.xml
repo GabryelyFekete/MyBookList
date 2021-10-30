@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main"
+    android:orientation="vertical"
+    android:background="@drawable/background2">
+
+    <include
+        layout="@layout/main_toolbar"/>
+
+    <ListView
+        android:id="@+id/lbList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </ListView>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginStart="125dp"
+        android:layout_marginVertical="18dp"
+        android:background="@drawable/botao_customizado2"
+        android:textColor="#ffffff"
+        android:text="@string/add"
+        android:onClick="onClickAdicionar"
+        />
+</LinearLayout>
+

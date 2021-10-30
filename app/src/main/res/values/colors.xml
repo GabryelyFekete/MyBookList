@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#E3DAF8</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="first">#F1dacf</color>
+    <color name="neutral">#EFE7E1</color>
+    <color name="littleblue">#C5CEC6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="scarlet">#8C3326</color>
+    <color name="rose">#DDA797</color>
+    <color name="green">#18A350</color>
+    <color name="gryffindor">#740001</color>
+    <color name="gryffindor2">#AE0001</color>
+    <color name="gryffindor3">#EEBA30</color>
+    <color name="gryffindor4">#D3A625</color>
+    <color name="gryffindor5">#000000</color>
+    <color name="purple1">#C0B2B2</color>
+    <color name="purple2">#A5878F</color>
+    <color name="purple3">#896378</color>
+    <color name="purple4">#6E4468</color>
+    <color name="purple5">#4B2A53</color>
+    <color name="blue">#323B58</color>
+    <color name="bluelittle">#247BA0</color>
+    <color name="greenlittle2">#CCE2E4</color>
+    <color name="bluelittle2">#BFDAD7</color>
+    <color name= "yellow1">#FFF6B7</color>
+    <color name= "pink2">#F6416C</color>
+    <color name="gray">#808080</color>
+    <color name= "smoke">#BEBDB8</color>
+    <color name="iron">#48494B</color>
+    <color name="SeaGreen">#2E8B57</color>
+    <color name="DarkGreen">#006400</color>
+    <color name="Green">#008000</color>
+    <color name="ForestGreen">#228B22</color>
+    <color name="LightSkyBlue">#87CEFA</color>
+    <color name="SkyBlue">#87CEEB</color>
+    <color name="DeepSkyBlue">#00BFFF</color>
+    <color name="LightBlue">#ADD8E6</color>
+    <color name="StealBlue">#4682B4</color>
+    <color name="PaleTurquoise">#E0FFFF</color>
+    <color name="Turquoise">#40E0D0</color>
+    <color name="MediumTurquoise">#48D1CC</color>
+    <color name="DarkTurquoise">#00CED1</color>
+
+
+
+</resources>

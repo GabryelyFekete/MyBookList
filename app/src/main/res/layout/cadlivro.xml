@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background2">
+
+    <EditText
+        android:id="@+id/edTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Título"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:singleLine="true"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:hint="Autor(a)"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:singleLine="true"
+        android:id="@+id/edAutor"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="158dp"
+        android:hint="Editora"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:singleLine="true"
+        android:id="@+id/edEditora"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:hint="Coleção"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:id="@+id/edColecao"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="130dp"
+        android:hint="Nº páginas"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:inputType="number"
+        android:singleLine="true"
+        android:id="@+id/edNumpaginas"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:hint="Recomendação ?"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:singleLine="true"
+        android:id="@+id/edRecomendacao"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:hint="Recomendaria ?"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:singleLine="true"
+        android:id="@+id/edRecomendaria"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:hint="Nota"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:id="@+id/edNota"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Gênero"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:singleLine="true"
+        android:id="@+id/edGenero"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Filme"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:singleLine="true"
+        android:id="@+id/edFilme"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Seu (s) Personagem (ns) Favorito (s)"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:inputType="textCapSentences|textAutoCorrect"
+        android:singleLine="true"
+        android:id="@+id/edPersonagemFavorito"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:hint="Capítulos"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:inputType="number"
+        android:singleLine="true"
+        android:id="@+id/edCapitulos"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btCancelar"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botao_customizado2"
+            android:onClick="onClickCancelar"
+            android:text="Cancelar"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btSalvar"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/botao_customizado2"
+            android:onClick="onClickSalvar"
+            android:text="Salvar"
+            android:textColor="@color/white"  />
+
+    </LinearLayout>
+
+</LinearLayout>

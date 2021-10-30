@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Book List app</string>
+    <string name="entrar">Entrar</string>
+    <string name="vamosla">Vamos lá !</string>
+    <string name="text_fraseinicial">Seja Bem-vindo!</string>
+    <string name="text_app">ao My Book List.</string>
+    <string name="txt_vamo">Vamos embarcar nessa ?!</string>
+    <string name="text_cadastro">É novo por aqui? Clique aqui!</string>
+    <string name="title_cadastro">Cadastre-se!</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="title_activity_tela_principal_one">TelaPrincipalOne</string>
+    <string name="add">Adicionar</string>
+    <string name="sobre">Esse app foi criado com o objetivo de saciar a necessidade dos leitores, de um aplicativo capaz
+    de armazenar dados de cada livro que você, leitor, fez!</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:id="@+id/txt_sejabemvindo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:textStyle="italic"
+        android:textSize="60sp"
+        android:textColor="@color/iron"
+        android:text="@string/text_fraseinicial" />
+
+    <TextView
+        android:id="@+id/txt_app"
+        android:textAlignment="center"
+        android:textColor="@color/iron"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_app" />
+
+
+    <TextView
+        android:id="@+id/txt_vamo"
+        android:textAlignment="center"
+        android:textColor="@color/iron"
+        android:layout_marginTop="170dp"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_vamo" />
+
+    <Button
+        android:id="@+id/btVamosla"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="95dp"
+        android:background="@drawable/botao_customizado2"
+        android:onClick="onClickFormLogin"
+        android:text="@string/vamosla"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
